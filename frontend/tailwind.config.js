@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#00251d",
+        "primary-container": "#123b32",
+        "on-primary": "#ffffff",
+        "on-primary-container": "#7da599",
+        "primary-dark": "#0B2924",
+        "accent": "#E5A900",
+        "accent-light": "#FFF5D6",
+        "secondary": "#47645e",
+        "secondary-container": "#c9e9e1",
+        "on-secondary-container": "#4d6a64",
+        "surface": "#ffffff",
+        "surface-ground": "#F5F7F6",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-low": "#e6f8f0",
+        "surface-container": "#e1f2ea",
+        "surface-container-high": "#dbece5",
+        "surface-container-highest": "#d5e6df",
+        "on-surface": "#101e1a",
+        "on-surface-variant": "#414846",
+        "outline": "#717975",
+        "outline-variant": "#c0c8c4",
+        "border-subtle": "#DFE6E2",
+        "gov-success": "#238354",
+        "gov-warning": "#B7791F",
+        "gov-error": "#C23B3B",
+        "gov-info": "#2767A8",
+        "tertiary": "#2b1d00",
+        "tertiary-container": "#463100",
+        "on-tertiary-container": "#c99400",
+        "tertiary-fixed": "#ffdea3",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "-apple-system", "sans-serif"],
+      },
+      spacing: {
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "space-lg": "1.5rem",
+        "space-xl": "2rem",
+      }
+    },
+  },
+  plugins: [],
+}
