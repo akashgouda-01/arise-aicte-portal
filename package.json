@@ -1,0 +1,20 @@
+{
+  "name": "aicte-approval-compliance-portal",
+  "version": "1.0.0",
+  "description": "AICTE Approval Workflow Automation, Compliance Monitoring and Alert Management System (SIH26262)",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm --prefix frontend run dev",
+    "server": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build && npm --prefix backend run build",
+    "test": "npm --prefix backend test && npm --prefix frontend test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
