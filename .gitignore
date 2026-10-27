@@ -35,3 +35,7 @@ Thumbs.db
 # Agent & Stitch generator artifacts
 .agents/
 stitch_aicte_approval_compliance_portal/
+
+# Internal docs & presentation scripts
+SIH DOCUMENTS/
+DEMO_VIDEO_SCRIPT.md

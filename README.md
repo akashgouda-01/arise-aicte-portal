@@ -261,8 +261,7 @@ d:/SIH-PROJECT/
 │
 ├── supabase/
 │   └── migrations/001_initial_schema.sql # PostgreSQL schema & RLS policies
-├── SIH DOCUMENTS/                      # Problem statement & stakeholder analysis
-└── stitch_aicte_approval_compliance_portal/ # Original Stitch UI templates
+└── mock-documents/                     # Statutory mock documents & PDF templates
 ```
 
 ---
