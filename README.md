@@ -261,7 +261,8 @@ d:/SIH-PROJECT/
 │
 ├── supabase/
 │   └── migrations/001_initial_schema.sql # PostgreSQL schema & RLS policies
-└── mock-documents/                     # Statutory mock documents & PDF templates
+├── mock-documents/                     # Statutory mock documents & PDF templates
+└── PROJECT_GUIDE.md                    # Comprehensive technical & evaluator guide
 ```
 
 ---
